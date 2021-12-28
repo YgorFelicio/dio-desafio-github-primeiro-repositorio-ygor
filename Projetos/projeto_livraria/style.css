@@ -1,0 +1,256 @@
+@CHARSET "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-seize: 1em;
+	font-weight: 400;
+	background-color: #00FF00;
+}
+
+h1{
+	color: #4682B4;
+}
+
+h2{
+	color: #66bbff;
+}
+
+h3{
+	color: #66bbff;
+}
+
+u{
+	color: #4682B4;
+}
+
+.text1{
+	padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.botao1{
+	text-decoration: none;
+	background-color: #66bbff;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border: 2px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.botao2{
+	text-decoration: none;
+	background-color: #d51213;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border: 2px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.caixa1{
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 2px solid #66bbff;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.caixa2{
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 2px solid #66bbff;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+	
+}
+
+.caixa3{
+	width: 75px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 2px solid #66bbff;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.tab2{
+	margin-top: 15px;
+	border: 4px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #FFF8DC;
+	height: 300px;
+}
+
+.tab2 th{
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: center;
+	background-color: #66bbff;
+	color: #fff;
+}
+
+.tab3{
+	margin-top: 200px;
+	border: 4px solid black;
+	border-radius: 5px;
+	padding: 0;
+	background-color: #FFF8DC;
+	width: 500px;
+}
+
+.tabSobre{
+	margin-top: 9px;
+	border: 4px solid black;
+	border-radius: 5px;
+	padding: 1px;
+	background-color: #FFF8DC;
+	width: 900px;
+	height: 270px;
+}
+
+
+.tabSobre th{
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: center;
+	background-color: #66bbff;
+	color: #fff;
+}
+
+.tabSobre2{
+	margin-top: 6px;
+	border: 4px solid black;
+	border-radius: 5px;
+	padding: 1px;
+	background-color: #FFF8DC;
+	width: 988px;
+	height: 250px;
+}
+
+.tabSobre2 th{
+	border: 1px solid #ddd;
+	padding: 2px;
+	text-align: center;
+	background-color: #66bbff;
+	color: #fff;
+}
+
+#tab{
+	margin-top: 100px;
+	border: 4px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #ffffff;
+	width: 400px;
+	height: 300px;
+}
+
+#tab1{
+	border: 4px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #FFF8DC;
+	height: 300px;
+}
+
+#caixa3{
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 2px solid #ff0000;
+	border-radius: 5px;
+}
+
+#tabela{
+	margin-top: 0;
+}
+
+#tabela th{
+	border: 2px solid black;
+	padding: 10px;
+	text-align: center;
+	background-color: #66bbff;
+	color: #fff;
+}
+
+#tabela td{
+	border: 3px solid #ddd;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: 700;
+}
+
+#tabelinha{
+	margin-top: 0;
+}
+
+#tabelinha td{
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #66bbff;
+}
+
+legend{
+	border: 2px black solid;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #90EE90;
+}
+
+fieldset{
+	border: 3px black solid;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 450px;
+}
+
+#imagem{
+	border-radius: 100px;
+}
+
+.dp-menuUl1{
+	list-style-type: none;
+	padding: 0;
+	background-color: #4682B4;
+	border: 3px solid black;
+	border-radius: 5px;
+}
+
+.dp-menuUlLi{
+	display: inline;	
+	position: relative;
+	font-size: 1.2em;
+}
+
+.dp-menuUlLiA{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+.dp-menuUlLiA:hover{
+	background-color: #86c5f7; 
+}
+
+.consultaTexto{
+	border-radius: 5px;	
+}
+
+.rodape {
+	position: absolute;
+	bottom: 0;
+	padding: 9px;
+	width: 98%;
+	background-color: #4682B4;
+	border: 2px solid black;
+	display: inline;
+}
